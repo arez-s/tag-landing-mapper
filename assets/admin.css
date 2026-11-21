@@ -1,0 +1,35 @@
+.tlm-admin {max-width: 1500px;}
+.tlm-admin h1 {margin-bottom: 8px;}
+.tlm-admin > .description {margin-bottom: 18px;}
+.tlm-panel {background: #fff; border: 1px solid #dcdcde; border-radius: 8px; padding: 20px 22px; margin: 18px 0; box-shadow: 0 1px 2px rgba(0,0,0,.025);}
+.tlm-panel h2 {font-size: 18px; margin: 0 0 18px; padding: 0;}
+.tlm-grid {display: grid; grid-template-columns: repeat(2,minmax(220px,1fr)); column-gap: 22px; row-gap: 18px;}
+.tlm-field label {display: block; font-weight: 600; margin-bottom: 7px;}
+.tlm-field input[type="text"],.tlm-field input[type="datetime-local"],.tlm-field select {width: 100%; max-width: 100%; min-height: 36px;}
+.tlm-field small {display: block; margin-top: 5px; color: #646970; font-size: 12px;}
+.tlm-field-check {align-self: center;}
+.tlm-field-check label {display: flex; align-items: center; gap: 7px;}
+.tlm-field-check input[type="checkbox"] {margin: 0;}
+.tlm-table-wrap {overflow-x: auto;}
+.tlm-table {min-width: 850px;}
+.tlm-table th,.tlm-table td {text-align: right; vertical-align: middle; padding: 11px 10px;}
+.tlm-table th {font-weight: 600;}
+.tlm-table td a {text-decoration: none;}
+.tlm-subtext {font-size: 11px; color: #818a93; direction: ltr; text-align: right; margin: 4px 0;}
+.tlm-actions {min-width: 255px;}
+.tlm-actions form {display: inline-block; margin: 0 2px 4px 0;}
+.tlm-actions > a {margin: 0 2px 4px 0;}
+.tlm-status {display: inline-block; border-radius: 20px; padding: 4px 10px; white-space: nowrap; font-size: 12px; font-weight: 600; background: #e5e5e5;}
+.tlm-status-active {color: #075c36; background: #e2f5e8;}
+.tlm-status-disabled,.tlm-status-expired {color: #5b6167; background: #e9ecef;}
+.tlm-status-scheduled {color: #76550e; background: #fff2cf;}
+.tlm-status-invalid {color: #a51b25; background: #fae6e7;}
+.tlm-count {background: #f0f0f1; padding: 2px 8px; border-radius: 12px; font-size: 12px; font-weight: normal;}
+.tlm-snapshot {font-size: 12px; max-width: 280px; line-height: 1.6;}
+.tlm-danger {color: #b32d2e !important; border-color: #cf8b8c !important;}
+.tlm-admin .tablenav {margin-top: 14px;}
+.ui-autocomplete {position: absolute; z-index: 100100 !important; max-height: 280px; overflow-y: auto; overflow-x: hidden; background: #fff; border: 1px solid #8c8f94; box-shadow: 0 5px 14px rgba(0,0,0,.12); min-width: 250px; padding: 0; list-style: none;}
+.ui-menu-item {display: block; margin: 0; padding: 0;}
+.ui-menu-item-wrapper {padding: 8px 12px; cursor: pointer; text-align: right;}
+.ui-state-active,.ui-menu-item-wrapper:hover {background: #f0f6fc; color: #135e96; border: none; margin: 0;}
+@media(max-width: 782px) {.tlm-grid {grid-template-columns: 1fr;}.tlm-panel {padding: 16px;}.tlm-field input[type="text"],.tlm-field select {font-size: 16px;}}
